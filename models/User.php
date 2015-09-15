@@ -3,18 +3,18 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) Dektrium project <http://github.com/anek77713/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace anek77713\user\models;
 
-use dektrium\user\Finder;
-use dektrium\user\helpers\Password;
-use dektrium\user\Mailer;
-use dektrium\user\Module;
+use anek77713\user\Finder;
+use anek77713\user\helpers\Password;
+use anek77713\user\Mailer;
+use anek77713\user\Module;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
@@ -63,13 +63,13 @@ class User extends ActiveRecord implements IdentityInterface, \OAuth2\Storage\Us
     /** @var string Plain password. Used for model validation. */
     public $password;
 
-    /** @var \dektrium\user\Module */
+    /** @var \anek77713\user\Module */
     protected $module;
 
-    /** @var \dektrium\user\Mailer */
+    /** @var \anek77713\user\Mailer */
     protected $mailer;
 
-    /** @var \dektrium\user\Finder */
+    /** @var \anek77713\user\Finder */
     protected $finder;
 
     /** @inheritdoc */

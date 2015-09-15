@@ -3,15 +3,15 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) Dektrium project <http://github.com/anek77713/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace anek77713\user\controllers;
 
-use dektrium\user\Finder;
+use anek77713\user\Finder;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -20,7 +20,7 @@ use yii\web\NotFoundHttpException;
 /**
  * ProfileController shows users profiles.
  *
- * @property \dektrium\user\Module $module
+ * @property \anek77713\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

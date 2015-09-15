@@ -3,19 +3,19 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) Dektrium project <http://github.com/anek77713/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace anek77713\user\controllers;
 
-use dektrium\user\Finder;
-use dektrium\user\models\RegistrationForm;
-use dektrium\user\models\ResendForm;
-use dektrium\user\models\User;
-use dektrium\user\traits\AjaxValidationTrait;
+use anek77713\user\Finder;
+use anek77713\user\models\RegistrationForm;
+use anek77713\user\models\ResendForm;
+use anek77713\user\models\User;
+use anek77713\user\traits\AjaxValidationTrait;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -25,7 +25,7 @@ use yii\web\NotFoundHttpException;
  * RegistrationController is responsible for all registration process, which includes registration of a new account,
  * resending confirmation tokens, email confirmation and registration via social networks.
  *
- * @property \dektrium\user\Module $module
+ * @property \anek77713\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

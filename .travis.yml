@@ -26,7 +26,7 @@ install:
 
 before_script:
   - cd tests
-  - mysql -e 'create database dektrium_test;'
+  - mysql -e 'create database anek77713_test;'
   - php codeception/_app/yii migrate/up --interactive=0
   - ~/.composer/vendor/bin/codecept build
 

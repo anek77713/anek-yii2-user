@@ -3,18 +3,18 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) Dektrium project <http://github.com/anek77713/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace anek77713\user\controllers;
 
-use dektrium\user\Finder;
-use dektrium\user\models\SettingsForm;
-use dektrium\user\Module;
-use dektrium\user\traits\AjaxValidationTrait;
+use anek77713\user\Finder;
+use anek77713\user\models\SettingsForm;
+use anek77713\user\Module;
+use anek77713\user\traits\AjaxValidationTrait;
 use Yii;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
@@ -25,7 +25,7 @@ use yii\web\NotFoundHttpException;
 /**
  * SettingsController manages updating user settings (e.g. profile, email and password).
  *
- * @property \dektrium\user\Module $module
+ * @property \anek77713\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */

@@ -3,19 +3,19 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) Dektrium project <http://github.com/anek77713/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\controllers;
+namespace anek77713\user\controllers;
 
-use dektrium\user\Finder;
-use dektrium\user\models\Profile;
-use dektrium\user\models\User;
-use dektrium\user\models\UserSearch;
-use dektrium\user\Module;
+use anek77713\user\Finder;
+use anek77713\user\models\Profile;
+use anek77713\user\models\User;
+use anek77713\user\models\UserSearch;
+use anek77713\user\Module;
 use Yii;
 use yii\base\ExitException;
 use yii\base\Model;
@@ -199,7 +199,7 @@ class AdminController extends Controller
     }
 
     /**
-     * If "dektrium/yii2-rbac" extension is installed, this page displays form
+     * If "anek77713/yii2-rbac" extension is installed, this page displays form
      * where user can assign multiple auth items to user.
      *
      * @param int $id
@@ -209,7 +209,7 @@ class AdminController extends Controller
      */
     public function actionAssignments($id)
     {
-        if (!isset(Yii::$app->extensions['dektrium/yii2-rbac'])) {
+        if (!isset(Yii::$app->extensions['anek77713/yii2-rbac'])) {
             throw new NotFoundHttpException();
         }
         Url::remember('', 'actions-redirect');

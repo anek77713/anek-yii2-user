@@ -1,4 +1,4 @@
-namespace: dektrium\user\tests
+namespace: anek77713\user\tests
 actor: Tester
 paths:
     tests: codeception

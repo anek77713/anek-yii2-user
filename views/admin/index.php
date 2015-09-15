@@ -3,13 +3,13 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Dektrium project <http://github.com/anek77713>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-use dektrium\user\models\UserSearch;
+use anek77713\user\models\UserSearch;
 use yii\data\ActiveDataProvider;
 use yii\grid\GridView;
 use yii\helpers\Html;

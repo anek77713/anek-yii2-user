@@ -1,10 +1,10 @@
 <?php
 
-namespace dektrium\user\tests;
+namespace anek77713\user\tests;
 
-use dektrium\user\models\Token;
-use dektrium\user\models\User;
-use dektrium\user\Module;
+use anek77713\user\models\Token;
+use anek77713\user\models\User;
+use anek77713\user\Module;
 use tests\codeception\_pages\LoginPage;
 use tests\codeception\_pages\RegistrationPage;
 use yii\helpers\Html;
@@ -21,7 +21,7 @@ class RegistrationCest
 
     /**
      * Tests registration with email, username and password without any confirmation.
-     * @param \dektrium\user\tests\FunctionalTester $I
+     * @param \anek77713\user\tests\FunctionalTester $I
      */
     public function testRegistration(FunctionalTester $I)
     {

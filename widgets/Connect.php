@@ -3,13 +3,13 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Dektrium project <http://github.com/anek77713>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\widgets;
+namespace anek77713\user\widgets;
 
 use Yii;
 use yii\authclient\ClientInterface;

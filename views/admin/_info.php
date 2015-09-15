@@ -3,7 +3,7 @@
 /*
  * This file is part of the Dektrium project
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Dektrium project <http://github.com/anek77713>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
@@ -11,11 +11,11 @@
 
 /**
  * @var yii\web\View
- * @var dektrium\user\models\User
+ * @var anek77713\user\models\User
  */
 ?>
 
-<?php $this->beginContent('@dektrium/user/views/admin/update.php', ['user' => $user]) ?>
+<?php $this->beginContent('@anek77713/user/views/admin/update.php', ['user' => $user]) ?>
 
 <table class="table">
     <tr>

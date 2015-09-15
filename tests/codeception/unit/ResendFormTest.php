@@ -1,8 +1,8 @@
 <?php
 
-namespace dektrium\user\tests;
+namespace anek77713\user\tests;
 
-use dektrium\user\models\ResendForm;
+use anek77713\user\models\ResendForm;
 use tests\codeception\_fixtures\UserFixture;
 use yii\codeception\TestCase;
 

@@ -10,7 +10,7 @@ configure your view application component as follows:
     'view' => [
         'theme' => [
             'pathMap' => [
-                '@dektrium/user/views' => '@app/views/user'
+                '@anek77713/user/views' => '@app/views/user'
             ],
         ],
     ],
@@ -18,7 +18,7 @@ configure your view application component as follows:
 ...
 ```
 
-In the above `pathMap` means that every view in @dektrium/user/views will be first searched under `@app/views/user` and
+In the above `pathMap` means that every view in @anek77713/user/views will be first searched under `@app/views/user` and
 if a view exists in the theme directory it will be used instead of the original view.
 
 ## Example
@@ -37,7 +37,7 @@ use yii\widgets\ActiveForm;
 /**
  * @var yii\web\View              $this
  * @var yii\widgets\ActiveForm    $form
- * @var dektrium\user\models\User $user
+ * @var anek77713\user\models\User $user
  */
 
 $this->title = Yii::t('user', 'Sign up');

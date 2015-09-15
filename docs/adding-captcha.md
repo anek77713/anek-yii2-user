@@ -21,7 +21,7 @@ public property named **captcha** and validation rules.
 
     namespace app\models;
 
-    class RegistrationForm extends \dektrium\user\models\RegistrationForm
+    class RegistrationForm extends \anek77713\user\models\RegistrationForm
     {
         /**
          * @var string

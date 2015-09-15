@@ -3,13 +3,13 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) Dektrium project <http://github.com/anek77713/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace anek77713\user\models;
 
 use Yii;
 use yii\db\ActiveRecord;
@@ -35,7 +35,7 @@ class Token extends ActiveRecord
     const TYPE_CONFIRM_NEW_EMAIL = 2;
     const TYPE_CONFIRM_OLD_EMAIL = 3;
 
-    /** @var \dektrium\user\Module */
+    /** @var \anek77713\user\Module */
     protected $module;
 
     /** @inheritdoc */

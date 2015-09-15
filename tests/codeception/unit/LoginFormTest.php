@@ -1,12 +1,12 @@
 <?php
 
-namespace dektrium\user\tests;
+namespace anek77713\user\tests;
 
 use AspectMock\Test as test;
 use Codeception\Specify;
-use dektrium\user\Finder;
-use dektrium\user\models\LoginForm;
-use dektrium\user\models\User;
+use anek77713\user\Finder;
+use anek77713\user\models\LoginForm;
+use anek77713\user\models\User;
 use Yii;
 use yii\base\Security;
 use yii\codeception\TestCase;

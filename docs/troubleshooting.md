@@ -12,6 +12,6 @@ Yii2-user identity class:
 ```php
 'user' => [
     'class' => 'app\components\User',
-    'identityClass' => 'dektrium\user\models\User',
+    'identityClass' => 'anek77713\user\models\User',
 ],
 ```

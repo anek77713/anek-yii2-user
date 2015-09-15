@@ -3,18 +3,18 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) Dektrium project <http://github.com/anek77713/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace anek77713\user\models;
 
-use dektrium\user\clients\ClientInterface;
-use dektrium\user\Finder;
-use dektrium\user\models\query\AccountQuery;
-use dektrium\user\Module;
+use anek77713\user\clients\ClientInterface;
+use anek77713\user\Finder;
+use anek77713\user\models\query\AccountQuery;
+use anek77713\user\Module;
 use Yii;
 use yii\authclient\ClientInterface as BaseClientInterface;
 use yii\db\ActiveRecord;

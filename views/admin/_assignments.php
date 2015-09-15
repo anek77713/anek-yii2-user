@@ -3,22 +3,22 @@
 /*
  * This file is part of the Dektrium project
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Dektrium project <http://github.com/anek77713>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
  */
 
-use dektrium\rbac\widgets\Assignments;
+use anek77713\rbac\widgets\Assignments;
 
 /**
  * @var yii\web\View 				$this
- * @var dektrium\user\models\User 	$user
+ * @var anek77713\user\models\User 	$user
  */
 
 ?>
 
-<?php $this->beginContent('@dektrium/user/views/admin/update.php', ['user' => $user]) ?>
+<?php $this->beginContent('@anek77713/user/views/admin/update.php', ['user' => $user]) ?>
 
 <?= yii\bootstrap\Alert::widget([
     'options' => [

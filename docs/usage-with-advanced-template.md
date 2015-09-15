@@ -16,7 +16,7 @@ Let's start with defining module in `@common/config/main.php`:
 ```php
 'modules' => [
     'user' => [
-        'class' => 'dektrium\user\Module',
+        'class' => 'anek77713\user\Module',
         // you will configure your module inside this file
         // or if need different configuration for frontend and backend you may
         // configure in needed configs
@@ -31,7 +31,7 @@ Now we should restrict access to admin controller in frontend application. Open
 'modules' => [
     'user' => [
         // following line will restrict access to admin page
-        'as frontend' => 'dektrium\user\filters\FrontendFilter',
+        'as frontend' => 'anek77713\user\filters\FrontendFilter',
     ],
 ],
 ```
@@ -42,7 +42,7 @@ Also do the same thing with `@backend/config/main.php`:
 'modules' => [
     'user' => [
         // following line will restrict access to admin page
-        'as backend' => 'dektrium\user\filters\BackendFilter',
+        'as backend' => 'anek77713\user\filters\BackendFilter',
     ],
 ],
 ```

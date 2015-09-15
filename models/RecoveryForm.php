@@ -3,23 +3,23 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) Dektrium project <http://github.com/anek77713/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace anek77713\user\models;
 
-use dektrium\user\Finder;
-use dektrium\user\Mailer;
+use anek77713\user\Finder;
+use anek77713\user\Mailer;
 use Yii;
 use yii\base\Model;
 
 /**
  * Model for collecting data on password recovery.
  *
- * @property \dektrium\user\Module $module
+ * @property \anek77713\user\Module $module
  *
  * @author Dmitry Erofeev <dmeroff@gmail.com>
  */
@@ -34,7 +34,7 @@ class RecoveryForm extends Model
     /** @var User */
     protected $user;
 
-    /** @var \dektrium\user\Module */
+    /** @var \anek77713\user\Module */
     protected $module;
 
     /** @var Mailer */

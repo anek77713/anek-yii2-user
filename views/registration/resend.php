@@ -3,7 +3,7 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium>
+ * (c) Dektrium project <http://github.com/anek77713>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
 
 /*
  * @var yii\web\View                    $this
- * @var dektrium\user\models\ResendForm $model
+ * @var anek77713\user\models\ResendForm $model
  */
 
 $this->title = Yii::t('user', 'Request new confirmation message');

@@ -3,16 +3,16 @@
 /*
  * This file is part of the Dektrium project.
  *
- * (c) Dektrium project <http://github.com/dektrium/>
+ * (c) Dektrium project <http://github.com/anek77713/>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace anek77713\user\models;
 
-use dektrium\user\Finder;
-use dektrium\user\helpers\Password;
+use anek77713\user\Finder;
+use anek77713\user\helpers\Password;
 use Yii;
 use yii\base\Model;
 
@@ -33,10 +33,10 @@ class LoginForm extends Model
     /** @var string Whether to remember the user */
     public $rememberMe = false;
 
-    /** @var \dektrium\user\models\User */
+    /** @var \anek77713\user\models\User */
     protected $user;
 
-    /** @var \dektrium\user\Module */
+    /** @var \anek77713\user\Module */
     protected $module;
 
     /** @var Finder */

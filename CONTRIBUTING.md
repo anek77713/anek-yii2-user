@@ -15,7 +15,7 @@ The issue tracker is the preferred channel for [bug reports](#bugs),
 requests](#pull-requests), but please respect the following restrictions:
 
 * Please **do not** use the issue tracker for personal support requests (use
-  [Google group](https://groups.google.com/forum/#!forum/yii2-user) or [Gitter](https://gitter.im/dektrium/yii2-user).
+  [Google group](https://groups.google.com/forum/#!forum/yii2-user) or [Gitter](https://gitter.im/anek77713/yii2-user).
 
 * Please **do not** derail or troll issues. Keep the discussion on topic and
   respect the opinions of others.
